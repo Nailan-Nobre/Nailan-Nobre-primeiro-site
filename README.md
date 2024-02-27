@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Nailan-Nobre
-- 👀 I’m interested in ... (really three points)
-- 🌱 I’m currently learning the basics of programming
+- 👀 I’m interested in ... (...)
+- 🌱 I’m currently learning o básico de programação
 - 📫 How to reach me https://www.instagram.com/n2il2n?igsh=cHVzczU1ajdycDR6
-- ⚡ Fun fact: Usually confuses me with a certain Neemias😔😒
+- ⚡ Fun fact: Normalmente me confundem com um tal de Neemias😔😒
 
 <!---
 Nailan-Nobre/Nailan-Nobre is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
