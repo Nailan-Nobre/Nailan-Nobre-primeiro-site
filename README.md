@@ -2,7 +2,7 @@
 - 📚 IFPI-Campus Picos;
 - 💻 2º Informática;
 - 🌱 I’m currently learning the basics of programming.
-- 
+  
 
 
 <!---
