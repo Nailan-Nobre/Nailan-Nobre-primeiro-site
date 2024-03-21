@@ -37,7 +37,7 @@ header{
 
 .cabeçalho-link a{
   color: #000;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .cabeçalho-link a:hover{
@@ -46,12 +46,12 @@ header{
 }
 
 button{
-  collor: #59CD6B;
+  color: #59CD6B;
   background: transparent;
   border: 1px solid #59CD6B;
   padding: 5px;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 25px;
   width: 150px;
 }
 
@@ -88,18 +88,3 @@ button:hover{
 .so{
   margin-top: 10px;
 }
-
-@media screen and (max-width:768px){
-  header{
-    height: auto;
-  }
-  div{
-    width: 30%;
-    height: auto;
-}
-
-}
-@media screen and (max-width:576px){
- div{
-    width: 95%;
-  }
