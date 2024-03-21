@@ -36,8 +36,8 @@ header{
 }
 
 .cabeçalho-link a{
-  color: #ffff;
-  font-size: 12px;
+  color: #000;
+  font-size: 20px;
 }
 
 .cabeçalho-link a:hover{
@@ -51,26 +51,27 @@ button{
   border: 1px solid #59CD6B;
   padding: 5px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 20px;
   width: 150px;
 }
 
 button:hover{
   background: #59CD6B;
   transition: 0,5s;
-  color: #ffff;
+  color: #000;
 }
 
 .container-text{
-  padding: 150px 0 0 130px;
+  padding: 250px 0 0 130px;
+  font-size: 35px;
 }
 
 .text h3{
-  color: #ffff;
+  color: #000;
 }
 
 .text h1{
-  color: #ffff;
+  color: #000;
   margin-top: 10px;
 }
 
@@ -79,8 +80,7 @@ button:hover{
 }
 
 .text p{
-  color: #ffff;
-  font-size: 10px;
+  color: #000;
   font-weight: 300;
   margin top: 10px;
 }
