@@ -126,7 +126,7 @@ button:hover{
     display: flex;
     gap: 3rem;
     font-weight: 300;
-    margin-right: -35px;
+    margin-right: -25px;
   }
   
   header button{
