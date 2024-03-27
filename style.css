@@ -1,3 +1,4 @@
+/*Termos gerais*/
 *{
   margin: 0;
   padding: 0;
@@ -13,6 +14,18 @@ body{
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
+}
+
+hr{
+  background-color: #59CD6B;
+  width: 100%;
+  height: 3px;
+  border: none;
+  margin: 1rem 0;
+}
+
+span{
+  color: #59CD6B;
 }
 
 /*Cabeçalho*/
@@ -64,17 +77,13 @@ button:hover{
   align-items: center;
   justify-content: space-around;
   font-size: 36px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .pag1 button{
   font-size: 35px;
   width: 160px;
   height: 40px;
-}
-
-nav .pag1{
-  
 }
 
 /*Parte central da pagina 2*/
@@ -102,14 +111,3 @@ nav .pag1{
 .pag2{
   margin-top: 100px;
 }
-
-span{
-  color: #59CD6B;
-}
-
-hr{
-  background-color: #59CD6B;
-  width: 100%;
-  height: 3px;
-  border: none;
-  margin: 3.
