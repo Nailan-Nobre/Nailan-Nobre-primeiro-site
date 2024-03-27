@@ -4,96 +4,89 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 body{
   display: flex;
   flex-direction: column;
-}
-
-.background{
-  background-color: white;
-  background-size: cover;
-  background-position: center;
   width: 100%;
-  min-height: 100vh;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
-header{
-  display: flex;
-  justify-content: space-around;
-  max-width: 100%;
-  align-items: center;
-  text-align: center;
-  padding-top: 1rem;
+/*Cabeçalho*/
+  nav{
+   position: fixed;
+   left: 0;
+   right: 0;
+   display: flex;
+   justify-content: space-around;
+   gap: 1rem;
+   max-width: 100%;
+   padding-top: 0.5rem;
+   background-color: transparent;
+   backdrop-filter: blur(10px);
 }
 
-.cabeçalho-link{
-  display: flex;
-  gap: 3rem;
-  font-weight: 300;
-  cursor: pointer;
-}
-
-.cabeçalho-link a{
+nav a, button{
   color: #000;
-  font-size: 25px;
-}
-
-.cabeçalho-link a:hover{
-  color: #59CD6B;
-  transition 0,3s all;
+  font-size: 30px;
 }
 
 button{
   color: #59CD6B;
   background: transparent;
-  border: 1px solid #59CD6B;
+  border: 2px solid #59CD6B;
   padding: 5px;
   border-radius: 20px;
   font-size: 25px;
   width: 150px;
+  height: 40px;
+  transition: width ease-in-out 0.3s, height ease-in-out 0.3s;
 }
 
 button:hover{
   background: #59CD6B;
   transition: 0,5s;
   color: #fff;
+  width: 180px;
+  height: 50px;
 }
 
-.container-text{
-  padding: 250px 0 0 130px;
+/*Parte central da pagina 1*/
+.img1{
+  max-width: 100%;
+}
+
+.pag1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 36px;
+  margin-top: 100px;
+}
+
+.pag1 button{
   font-size: 35px;
+  width: 160px;
+  height: 40px;
 }
 
-.text h3{
-  color: #000;
+nav .pag1{
+  
 }
 
-.text h1{
-  color: #000;
-  margin-top: 10px;
+/*Parte central da pagina 2*/
+.pag2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 36px;
 }
 
-.text h1 span{
-  color: #59CD6B;
-}
-
-.text p{
-  color: #000;
-  font-weight: 300;
-  margin top: 10px;
-}
-
-.so{
-  margin-top: 10px;
-}
-
-.imagem{
-  margin-top: -600px;
-  margin-left: 400px;
-  width: 900px;
-  height: 900px;
+.img2{
+  max-width: 100%;
 }
 
 .sobre{
@@ -106,63 +99,17 @@ button:hover{
   color: black;
 }
 
-.sobre h1 span{
+.pag2{
+  margin-top: 100px;
+}
+
+span{
   color: #59CD6B;
 }
 
-.sobre p span{
-  color: #59CD6B;
-}
-
-.linha{
+hr{
   background-color: #59CD6B;
-  width: 75%;
-  height: 4px;
-}
-
-.linha1{
-  background-color: #59CD6B;
-  width: 75%;
-  height: 4px;
-}
-
-@media (max-width: 720px) {
-  .container-text {
-    padding: 100px 0;
-  }
-  
-  .imagem {
-    margin-top: -130px;
-    margin-left: -30;
-    width: 400px;
-    height: auto;
-  }
-  
- .container-text .text{
-    font-size: 18px;
-    margin-left: 20px;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 10px;
-  }
-  
-  header .cabeçalho-link a{
-    font-size: 15px;
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
-    margin-right: -25px;
-  }
-  
-  header button{
-    font-size: 15px;
-  }
-  
-  .sobre{
-    font-size: 14px;
-  }
-} /* A03 */
+  width: 100%;
+  height: 3px;
+  border: none;
+  margin: 3.
