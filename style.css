@@ -204,7 +204,7 @@ footer{
 }
 
 /*responsividade*/
-@media (max-width: 574px){
+@media (max-width: 900px){
   /*termos gerais*/
   nav{
     max-width: 85%;
