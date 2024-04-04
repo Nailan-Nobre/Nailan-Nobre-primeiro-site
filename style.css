@@ -9,10 +9,10 @@
 }
 
 body{
+  margin: 0;
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1440px;
 }
 
 hr{
@@ -64,7 +64,7 @@ button{
 
 button:hover{
   background: #59CD6B;
-  transition: 0,5s;
+  transition: 0.5s;
   color: #fff;
 }
 
@@ -181,7 +181,7 @@ nav a:hover{
 }
 
 .pag5 img:hover{
-  width:600;
+  width: 600px;
 }
 
 .pag5{
@@ -200,7 +200,7 @@ footer{
   justify-content: space-around;
   background-color:#59CD6B;
   height: 50px;
-  font-size: 36px;
+  font-size: 20px;
   align-items: center;
 }
 
