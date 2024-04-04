@@ -130,7 +130,7 @@ nav a:hover{
 /*Página 3*/
 .pag3 img{
   display: flex;
-  max-width: 10% auto;
+  max-width: 100px;
   border-radius: 40px;
   align-items: center;
   margin-left: 20px;
